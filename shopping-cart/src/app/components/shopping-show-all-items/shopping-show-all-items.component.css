@@ -1,0 +1,35 @@
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 40px;
+  gap: 20px;
+}
+.card {
+  border: 2px solid teal;
+  border-radius: 6px;
+}
+.card-header {
+  text-align: center;
+}
+.card-header .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.card-header .card-subtitle {
+  font-style: italic;
+}
+.card-content,
+.card-actions {
+  display: grid;
+  row-gap: 10px;
+  padding: 0 30px;
+}
+.card-content span {
+  background-color: #eee;
+}
+.card-actions {
+  grid-auto-flow: column;
+  justify-content: space-around;
+  padding: 12px;
+}

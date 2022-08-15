@@ -1,0 +1,22 @@
+.shopping-wrapper {
+  display: grid;
+  text-align: center;
+}
+
+.form-content {
+  display: grid;
+  gap: 20px;
+  width: 50%;
+  margin: auto;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content {
+  height: 35px;
+}
+button {
+  width: 140px;
+  margin-left: auto;
+}

@@ -1,0 +1,17 @@
+.navbar ul {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 10px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar ul li a.active-link {
+  color: rgb(79, 111, 119);
+}
+.navbar-container {
+  background-color: darkgrey;
+}
